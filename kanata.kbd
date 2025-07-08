@@ -1,0 +1,31 @@
+(defcfg)
+
+(defsrc
+  caps
+  ralt
+  tab
+  h j k l
+  a e
+  f b
+  [
+)
+
+(deflayer layer0
+  (layer-while-held layer1)
+  (layer-while-held layer1)
+  tab
+  h j k l
+  a e
+  f b
+  [
+)
+
+(deflayer layer1
+  XX
+  XX
+  caps
+  left down up right
+  home end
+  pgup pgdn
+  esc
+)
