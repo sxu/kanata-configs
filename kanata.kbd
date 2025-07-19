@@ -26,6 +26,6 @@
   caps
   left down up right
   home end
-  pgup pgdn
+  pgdn pgup
   esc
 )
