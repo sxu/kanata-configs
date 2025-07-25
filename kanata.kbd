@@ -3,6 +3,7 @@
 (defsrc
   caps
   ralt
+  bspc
   tab
   h j k l
   a e
@@ -13,6 +14,7 @@
 (deflayer layer0
   (layer-while-held layer1)
   (layer-while-held layer1)
+  bspc
   tab
   h j k l
   a e
@@ -23,6 +25,7 @@
 (deflayer layer1
   XX
   XX
+  del
   caps
   left down up right
   home end
